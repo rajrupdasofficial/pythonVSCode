@@ -279,7 +279,7 @@ jobs:
         env:
           TEST_FILES_SUFFIX: testvirtualenvs
           CI_PYTHON_VERSION: ${{ matrix.python }}
-        uses: GabrielBB/xvfb-action@v1.6
+        uses: GabrielBB/xvfb-action@v1.7
         with:
           run: npm run testSingleWorkspace
           working-directory: ${{ env.special-working-directory }}
@@ -288,7 +288,7 @@ jobs:
       - name: Run single-workspace tests
         env:
           CI_PYTHON_VERSION: ${{ matrix.python }}
-        uses: GabrielBB/xvfb-action@v1.6
+        uses: GabrielBB/xvfb-action@v1.7
         with:
           run: npm run testSingleWorkspace
           working-directory: ${{ env.special-working-directory }}
@@ -297,7 +297,7 @@ jobs:
       - name: Run multi-workspace tests
         env:
           CI_PYTHON_VERSION: ${{ matrix.python }}
-        uses: GabrielBB/xvfb-action@v1.6
+        uses: GabrielBB/xvfb-action@v1.7
         with:
           run: npm run testMultiWorkspace
           working-directory: ${{ env.special-working-directory }}
@@ -306,7 +306,7 @@ jobs:
       - name: Run debugger tests
         env:
           CI_PYTHON_VERSION: ${{ matrix.python }}
-        uses: GabrielBB/xvfb-action@v1.6
+        uses: GabrielBB/xvfb-action@v1.7
         with:
           run: npm run testDebugger
           working-directory: ${{ env.special-working-directory }}
