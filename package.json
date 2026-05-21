@@ -1984,7 +1984,7 @@
         "@types/xml2js": "^0.4.2",
         "@typescript-eslint/eslint-plugin": "^3.7.0",
         "@typescript-eslint/parser": "^3.7.0",
-        "@vscode/test-electron": "^1.6.1",
+        "@vscode/test-electron": "^2.5.2",
         "chai": "^4.1.2",
         "chai-arrays": "^2.0.0",
         "chai-as-promised": "^7.1.1",
